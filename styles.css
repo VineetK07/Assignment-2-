@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-image: url('background image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+.top-line {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: auto;
+}
+.actors {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-style: inherit;
+}
+.tagline {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+.credits, .production-details, .release-date {
+  margin: 20px 0;
+  font-size: 0.9em;
+  font-style: oblique;
+  fo
+}
+.credits p, .production-details p {
+  margin: 5px 0;
+}
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.links a {
+  color: #00f;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.links a:hover {
+  text-decoration: underline;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.images figure {
+  margin: 20px;
+}
+.images img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #fff;
+}
+.images figcaption {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #ddd;
+}
